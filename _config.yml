@@ -4,7 +4,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   水野爱<br/>
   HPC<br/>
   田宫例四驱车<br/>
-  <a href="mailto:i@wu-kan.cn">
+  <a href="mailto:innovation64feng@gmail.com">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/innovation64">
@@ -13,14 +13,14 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://codeforces.com/profile/Avengersinnovation64">
     <i class="fas fa-chart-bar"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
+  <a href="https://vjudge.net/user/">
     <i class="fas fa-smile"></i>
   </a>
   <a href="https://www.zhihu.com/people/tian-qi-83-22-27">
     <i class="fab fa-zhihu"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+    src="https://music.163.com/outchain/player?type=2&id=1804320463&auto=1&height=66"
     width=100%
     height=52
     frameborder="no"
@@ -61,12 +61,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="https://davenger.top/img/2.jpg"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="https://davenger.top/img/10.jpg"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
