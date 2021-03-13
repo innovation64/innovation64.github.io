@@ -34,6 +34,7 @@ Information system and information management, Beijing University of Chinese Med
   - Mechine Learning
   - Deep Learning
   - Computer Vision CS231n
+  - Web Design
 
 <!-- .slide -->
 
