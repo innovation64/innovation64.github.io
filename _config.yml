@@ -61,12 +61,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://davenger.top/img/2.jpg"
+                href="https://davenger.top/img/10.jpg"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://davenger.top/img/2.jpg"
+                href="https://davenger.top/img/10.jpg"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
@@ -229,7 +229,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://davenger.top/img/2.jpg # 头像的地址
+              img: https://davenger.top/img/10.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
