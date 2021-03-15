@@ -161,11 +161,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
+                  background-image: url(https://davenger.top/img/3142.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
+                    background-image: url(https://davenger.top/img/3142.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -633,9 +633,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var myname = "Tianfeng";
                 var profile = "";
                 var usage = "payment";
-                var wechat = "";
+                var wechat = "wxp://f2f0niN-1mMA7zhLWhEmQ-9KMC2HIr1H9it8";
                 var tenpay = "";
-                var alipay = "";
+                var alipay = "https://qr.alipay.com/fkx17927j2qv3yj4izzo1f9";
                 var paypal = "";
                 var multilingual = false;
                 var branding = false;
