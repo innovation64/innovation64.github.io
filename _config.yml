@@ -157,7 +157,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transition-timing-function: ease-in-out;
                   min-height: 100%;
                   display: inline-block;
-                  background-size: 100% auto;
+                  background-size: auto 100%;
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
