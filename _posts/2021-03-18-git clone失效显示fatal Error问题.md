@@ -15,6 +15,6 @@ git config --global http.proxy
  git config --global http.proxy proxyaddress:port
 ```
 取消代理的话输入以下命令
-```
+```bash
 git config --global --unset http.proxy
 ```
