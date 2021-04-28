@@ -199,7 +199,7 @@ sns.barplot(data=train,x='Embarked',y='Survived')
 
 
 
-![png](output_7_1.png)
+![png](https://innovation64.github.io/assets/image/output_7_1.png)
 
 
 
@@ -230,7 +230,7 @@ sns.factorplot('Pclass',col='Embarked',data=train,kind='count',size=3)
 
 
 
-![png](output_9_1.png)
+![png](https://innovation64.github.io/assets/image/output_9_1.png)
 
 
 ### 3.2.2 Parch与Survived：当乘客同行的父母及子女数量适中时，生存率较高
@@ -248,7 +248,7 @@ sns.barplot(data=train,x='Parch',y='Survived')
 
 
 
-![png](output_11_1.png)
+![png](https://innovation64.github.io/assets/image/output_11_1.png)
 
 
 ### 3.2.3 SibSp与Survived：当乘客同行的同辈数量适中时生存率较高
@@ -266,7 +266,7 @@ sns.barplot(data=train,x='SibSp',y='Survived')
 
 
 
-![png](output_13_1.png)
+![png](https://innovation64.github.io/assets/image/output_13_1.png)
 
 
 ### 3.2.4 Pclass与Survived：乘客客舱等级越高，生存率越高
@@ -284,7 +284,7 @@ sns.barplot(data=train,x='Pclass',y='Survived')
 
 
 
-![png](output_15_1.png)
+![png](https://innovation64.github.io/assets/image/output_15_1.png)
 
 
 ### 3.2.5 Sex与Survived：女性的生存率远高于男性
@@ -302,7 +302,7 @@ sns.barplot(data=train,x='Sex',y='Survived')
 
 
 
-![png](output_17_1.png)
+![png](https://innovation64.github.io/assets/image/output_17_1.png)
 
 
 ### 3.2.6 Age与Survived：当乘客年龄段在0-10岁期间时生存率会较高
@@ -326,7 +326,7 @@ ageFacet.add_legend()
 
 
 
-![png](output_19_1.png)
+![png](https://innovation64.github.io/assets/image/output_19_1.png)
 
 
 ### 3.2.7 Fare与Survived：当票价低于18左右时乘客生存率较低，票价越高生存率一般越高
@@ -347,7 +347,7 @@ ageFacet.add_legend()
 
 
 
-![png](output_21_1.png)
+![png](https://innovation64.github.io/assets/image/output_21_1.png)
 
 
 ### 查看票价的分布特征
@@ -366,7 +366,7 @@ farePlot.legend(loc='best')
 
 
 
-![png](output_23_1.png)
+![png](https://innovation64.github.io/assets/image/output_23_1.png)
 
 
 ### fare的分布呈左偏的形态，其偏度skewness=4.37较大，说明数据偏移平均值较多，因此我们需要对数据进行对数化处理，防止数据权重分布不均匀。
@@ -627,7 +627,7 @@ sns.barplot(data=full,x='Title',y='Survived')
 
 
 
-![png](output_39_1.png)
+![png](https://innovation64.github.io/assets/image/output_39_1.png)
 
 
 ### 4.2.2 FamilyNum及FamilySize信息
@@ -647,7 +647,7 @@ sns.barplot(data=full,x='familyNum',y='Survived')
 
 
 
-![png](output_41_1.png)
+![png](https://innovation64.github.io/assets/image/output_41_1.png)
 
 
 
@@ -687,7 +687,7 @@ sns.barplot(data=full,x='familySize',y='Survived')
 
 
 
-![png](output_43_1.png)
+![png](https://innovation64.github.io/assets/image/output_43_1.png)
 
 
 # 4.2.3 Cabin客舱类型信息-Deck
@@ -707,7 +707,7 @@ sns.barplot(data=full,x='Deck',y='Survived')
 
 
 
-![png](output_45_1.png)
+![png](https://innovation64.github.io/assets/image/output_45_1.png)
 
 
 ### 4.2.4 共票号乘客数量TickCot及TickGroup
@@ -764,7 +764,7 @@ sns.barplot(data=full,x='TickCot',y='Survived')
 
 
 
-![png](output_49_1.png)
+![png](https://innovation64.github.io/assets/image/output_49_1.png)
 
 
 
@@ -791,7 +791,7 @@ sns.barplot(data=full,x='TickGroup',y='Survived')
 
 
 
-![png](output_50_1.png)
+![png](https://innovation64.github.io/assets/image/output_50_1.png)
 
 
 ### 4.2.5Age缺失值填充-构建随机森林模型预测缺失的数据
@@ -1367,7 +1367,7 @@ plt.xticks(rotation=45)
 
 
 
-![png](output_67_1.png)
+![png](https://innovation64.github.io/assets/image/output_67_1.png)
 
 
 
@@ -1564,7 +1564,7 @@ cvResFacet.add_legend()
 
 
 
-![png](output_77_1.png)
+![png](https://innovation64.github.io/assets/image/output_77_1.png)
 
 
 # 5.1.3模型调优
@@ -1671,7 +1671,7 @@ plt.show()
 
 
 
-![png](output_83_1.png)
+![png](https://innovation64.github.io/assets/image/output_83_1.png)
 
 
 
@@ -1705,7 +1705,7 @@ plt.show()
 
 
 
-![png](output_84_1.png)
+![png](https://innovation64.github.io/assets/image/output_84_1.png)
 
 
 
