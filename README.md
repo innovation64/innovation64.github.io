@@ -42,12 +42,14 @@ Information system and information management, Beijing University of Chinese Med
 
 <!-- .slide vertical=true -->
 
-- none
+- [innovation64.github.io](https://github.com/innovation64/innovation64.github.io)[![Star](https://img.shields.io/github/stars/innovation64/innovation64.github.io.svg)](https://github.com/innovation64/innovation64.github.io)[![Fork](https://img.shields.io/github/forks/innovation64/innovation64.github.io.github.io.svg)](https://github.com/innovation64/innovation64.github.io/fork)
+  - theme.
+  - Powered by Jekyll.
 <!-- .slide -->
 
 ## Honors
 
--NONE
+- **top10**, [baidu Chinese scene text recognition](https://aistudio.baidu.com/aistudio/projectdetail/1673180), Preliminary Contest, March. 2021
 
 <!-- .slide -->
 
