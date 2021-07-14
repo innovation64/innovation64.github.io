@@ -1,7 +1,7 @@
 ---
 tags: openEuler
 ---
-# F&Q
+# FAQ
 ## 安装检测工具
 ```bash
 yum install lsof -y
