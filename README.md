@@ -8,7 +8,7 @@
 
 ## Contact
 
-- Address: **Beijing University of Chinese Medicine - gongchen  Rd. - Shanxi, China**
+- Address: **Beijing University of Chinese Medicine - Chaoyang No.11.N.3rd - Beijing, China**
 - Phone: **+86 13269183099**
 - Site: **<https://davenger.top>**
 
@@ -36,6 +36,12 @@ Information system and information management, Beijing University of Chinese Med
   - Computer Vision CS231n
   - Web Design
 
+Shenzhen Institute of Science and Technology
+- innox  
+  -SLAM
+  -AIOT
+  -RSD
+  -sensors
 <!-- .slide -->
 
 ## Projects
@@ -61,7 +67,8 @@ Information system and information management, Beijing University of Chinese Med
 
 ## Blogs
 
-
+- [GNN系列](https://innovation64.github.io/_posts/2021-12-30-GNN-1.1/)
+- [linux装逼](https://innovation64.github.io/_posts/2021-08-21-linux%E8%A3%85%E9%80%BC%E7%A5%9E%E5%99%A8/)
 <!-- .slide -->
 
 ## Skills
@@ -69,10 +76,10 @@ Information system and information management, Beijing University of Chinese Med
 <!-- .slide vertical=true -->
 
 - **C/C++**, Familiar
-  - **OpenMP**, Familiar
-  - **MPI**, Familiar
   - **CUDA**, Familiar&Learning
 - **Python**, Familiar
+- **flask**, Familiar
+- **SLAM**, Familiar
 
 <!-- .slide vertical=true -->
 
