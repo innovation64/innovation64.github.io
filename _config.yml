@@ -419,12 +419,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   2020-2021 tian-feng
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-              #   <div>
-              #     <i class="fas fa-info-circle fa-fw"></i>
-              #     <a href="http://beian.miit.gov.cn">
-              #       粤ICP备 20024947号
-              #     </a>
-              #   </div>
+                <div>
+                  <i class="fas fa-info-circle fa-fw"></i>
+                  <a href="http://beian.miit.gov.cn">
+                     京ICP备2021000945号
+                  </a>
+                </div>
               # - | # 公安网备信息
               #   <div>
               #     <img src="http://www.beian.gov.cn/img/new/gongan.png" class="fa-fw"></img>
