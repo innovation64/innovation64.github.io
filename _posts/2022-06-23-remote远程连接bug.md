@@ -1,7 +1,8 @@
 ---
-tags：linux
+tags: linux
 ---
 # 关于vscode远程链接 （remote about vscode）
+
 > due to some problem ,i can not connet my server in vscode ,but it worked in command .
 > 发现终端连接可以，但是vscode不行
 
