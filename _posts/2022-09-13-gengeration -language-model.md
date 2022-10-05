@@ -1,6 +1,7 @@
 ---
-tags：GLM
+tags: GLM
 ---
+
 # 生成语言模型
 ## CoVe
 **语境词向量（Contextual Word Vectors, Cove, McCann等人 2017）** 是一类用编码器做词嵌入的方法，编码器就是基于注意力的 seq-to-seq 机器翻译模型里用的那种。不同于传统的词嵌入方法，CoVe 的词表示是关于整个输入序列的函数。
