@@ -5,10 +5,8 @@ tags: GLM
 本文仅为自己梳理用，大部分参考
 **轩明月 on December 21, 2020**的博客
 >总结摘要，理清脉络
-<center >
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJBzKq0lYPOdcqYshOaA5EhseKAd9YJ4WKg&usqp=CAU)
-
+<center>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJBzKq0lYPOdcqYshOaA5EhseKAd9YJ4WKg&usqp=CAU"  style="width:auto;">
 </center>
 ## CoVe 2017
 **语境词向量（Contextual Word Vectors, Cove, McCann等人  [2017](https://arxiv.org/abs/1708.00107)）** 是一类用编码器做词嵌入的方法，编码器就是基于注意力的 seq-to-seq 机器翻译模型里用的那种。不同于传统的词嵌入方法，CoVe 的词表示是关于整个输入序列的函数。
