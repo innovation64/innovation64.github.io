@@ -1,7 +1,7 @@
 ---
-title: inverse prompting
+title: inverse prompting IPROMPT
 data : 2022-9-1 00:20
-tags: GML
+tags: GLM
 ---
 # inverse prompting
 # Controllable Generation from Pre-trained Language Model via Inverse Prompt
