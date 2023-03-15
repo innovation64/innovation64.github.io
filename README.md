@@ -36,7 +36,7 @@ Information system and information management, Beijing University of Chinese Med
   - Computer Vision CS231n
   - Web Design
 
-Shenzhen Institute of Science and Technology
+1st graduates,Shenzhen Innox Academy
 - innox  
   -SLAM
   -AIOT
