@@ -47,7 +47,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               repo="innovation64/utterances-storage "
               src="https://utteranc.es/client.js"
               issue-term="url"
-              theme="github-dark"
+              theme="github-light"
               crossorigin="anonymous"
               async="async"
             ></script>
@@ -673,7 +673,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var wechat = "wxp://f2f0niN-1mMA7zhLWhEmQ-9KMC2HIr1H9it8";
                 var tenpay = "";
                 var alipay = "https://qr.alipay.com/fkx17927j2qv3yj4izzo1f9";
-                var paypal = "";
+                var paypal = "paypal.me/innovation64";
                 var multilingual = false;
                 var branding = false;
                 var title = "选择你的支付方式";
