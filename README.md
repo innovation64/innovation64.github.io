@@ -32,8 +32,10 @@
 <!-- .slide vertical=true -->
 
 Information system and information management, Beijing University of Chinese Medicine , Beijing
+
 <!-- .slide -->
-## base 
+
+## Base 
 Beijing/ShenZhen/Guangzhou/Shanghai/Xian 
 
 <!-- .slide -->
@@ -47,6 +49,7 @@ Beijing/ShenZhen/Guangzhou/Shanghai/Xian
   - Computer Vision CS231n
   - Web Design
 
+
 <!-- .slide -->
 
 1st graduates,Shenzhen Innox Academy
@@ -55,6 +58,7 @@ Beijing/ShenZhen/Guangzhou/Shanghai/Xian
   -AIOT
   -RSD
   -sensors
+
 <!-- .slide -->
 
 ## Projects
