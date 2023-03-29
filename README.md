@@ -2,22 +2,28 @@
 
 欢迎访问我的个人主页！下面向你介绍一下我自己吧\~
 
-[Resume](https://innovation64.github.io/ly.pdf)
+
 
 <!-- .slide -->
 
 ## Contact
 
 - Address: **Beijing University of Chinese Medicine - Chaoyang No.11.N.3rd - Beijing, China**
-- Phone: **+86 13269183099**
-- Site: **<https://davenger.top>**
+
+- Site: 
+  - **<https://davenger.top>**
+- [Resume](https://innovation64.github.io/ly.pdf)
 
 <!-- .slide vertical=true -->
 
+- Phone
+  - **+86 13269183099**
+- WeChat
+  - **liyang19991126**
 - E-mail:
   - **[liyang19991126@126.com](mailto:liyang19991126@126.com)**
   - **[innovation64feng@gmail.com](mailto:innovation64feng@gmail.com)**
-- WeChat: **liyang19991126**
+  - **[20180422037@bucm.edu.cn](mailto:20180422037@bucm.edu.cn)**
 
 <!-- .slide -->
 
@@ -26,6 +32,11 @@
 <!-- .slide vertical=true -->
 
 Information system and information management, Beijing University of Chinese Medicine , Beijing
+<!-- .slide -->
+## base 
+Beijing/ShenZhen/Guangzhou/Shanghai/Xian 
+
+<!-- .slide -->
 
 - Bachelor of management (Information system and information management Class), Sept. 2018 - Jul. 2022 (expected)
   - Arduino
@@ -35,6 +46,8 @@ Information system and information management, Beijing University of Chinese Med
   - Deep Learning
   - Computer Vision CS231n
   - Web Design
+
+<!-- .slide -->
 
 1st graduates,Shenzhen Innox Academy
 - innox  
