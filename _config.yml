@@ -19,15 +19,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://www.zhihu.com/people/tian-qi-83-22-27">
     <i class="fa-brands fa-zhihu"></i>
   </a>
-  <iframe
-    src="https://music.163.com/outchain/player?type=2&id=1338695683&auto=0&height=32"
-    width=100%
-    height=52
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-  ></iframe>
+  <br/>
 url: https://innovation64.github.io
 
 
@@ -39,8 +31,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
   - scope:
       path: "" # an empty string here means all files in the project
     values: # 以下配置项也可以在任意页面自定义
-      categories: "_posts"
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
+        comments: # 留言页，请先修改这里，确保使用的是你自己的repo！参照<https://utteranc.es/>
+          append: |
+            <script
+              repo="wu-kan/utterances-storage"
+              src="https://utteranc.es/client.js"
+              issue-term="url"
+              theme="github-light"
+              crossorigin="anonymous"
+              async="async"
+            ></script>
         default:
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
@@ -265,13 +266,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                      京ICP备2021000945号
                   </a>
                 </div>
-              # - | # 公安网备信息
-              #   <div>
-              #     <img src="http://www.beian.gov.cn/img/new/gongan.png" class="fa-fw"></img>
-              #     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-              #       皖公网安备 34070202000407号
-              #     </a>
-              #   </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fa-solid fa-user-edit fa-fw"></i>
