@@ -33,11 +33,6 @@
 
 Information system and information management, Beijing University of Chinese Medicine , Beijing
 
-<!-- .slide -->
-
-## Base 
-Beijing/ShenZhen/Guangzhou/Shanghai/Xian 
-
 
 <!-- .slide vertical=true -->
 
@@ -47,19 +42,33 @@ Beijing/ShenZhen/Guangzhou/Shanghai/Xian
   - PYQT5
   - Mechine Learning
   - Deep Learning
-  - Computer Vision CS231n
+    - Computer Vision CS231n
+    - Graph Neuture network CS224w
+    - NLP
   - Web Design
 
 
 
 <!-- .slide vertical=true -->
 
-1st graduates,Shenzhen Innox Academy
-- innox  
-  -SLAM
-  -AIOT
-  -RSD
-  -sensors
+1st Graduates,Shenzhen Innox Academy
+- innox
+  - Entrepreneurship  
+  - AIOT
+    - Embedded hardware
+  - RSD
+    - SLAM
+  - sensors
+   
+
+<!-- .slide -->
+
+## Membership
+
+<!--.slide vertical=true -->
+
+- AI Time (2021-2023)
+- Huggingface (2022-2023)
 
 <!-- .slide -->
 
