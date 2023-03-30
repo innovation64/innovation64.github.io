@@ -38,7 +38,8 @@ Information system and information management, Beijing University of Chinese Med
 ## Base 
 Beijing/ShenZhen/Guangzhou/Shanghai/Xian 
 
-<!-- .slide -->
+
+<!-- .slide vertical=true -->
 
 - Bachelor of management (Information system and information management Class), Sept. 2018 - Jul. 2022 (expected)
   - Arduino
@@ -50,7 +51,8 @@ Beijing/ShenZhen/Guangzhou/Shanghai/Xian
   - Web Design
 
 
-<!-- .slide -->
+
+<!-- .slide vertical=true -->
 
 1st graduates,Shenzhen Innox Academy
 - innox  
