@@ -603,8 +603,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       "hidden": true,
                       "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                       "content": {
-                        "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+                        "link": ["https:\/\/innovation64.github.io"],
+                        "skin": ["要换成我的朋友吗？", "让她放个假吧~","23333"],
                         "hidden": true,
                         "custom": [{
                           "selector": "a",
@@ -627,6 +627,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                         }]
                       },
                       "model": [
+                        "https://imuncle.github.io/live2d/model/miku/miku.model.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
