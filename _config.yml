@@ -73,7 +73,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /design/
               - title: '<i class="fa-solid fa-archive fa-fw"></i> 创业那些事'
                 href: /innox/
-              - title: '<i class="fa-solid fa-archive fa-fw"></i> '机器人旅途'
+              - title: '<i class="fa-solid fa-archive fa-fw"></i> 机器人旅途'
                 href: /robot/
               - title: '<i class="fa-solid fa-comment fa-fw"></i> 咸鱼的碎碎念'
                 href: /shit/
