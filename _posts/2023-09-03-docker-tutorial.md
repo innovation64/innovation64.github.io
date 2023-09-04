@@ -182,3 +182,141 @@ docker-compose -f mongo.yaml up
 ```
 
 ### dockerfile
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904092547.png)
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904092929.png)
+
+Build image from dockerfile
+
+```bash
+doceker build -t my-app:1.0 .
+```
+```bash
+docker images
+```
+
+```bash
+docker rm DockerconatinerID
+```
+``` bash
+docker rmi DockerimageID
+```
+
+``` bash
+docker exec -it DockerconatinerID /bin/bash
+docer exec -it DockerconatinerID /bin/sh
+```
+终结容器，有时候 bash 不管用
+
+
+### AWS
+```bash
+docker login
+```
+- 前置准备
+1） 安装 AWS CLi
+2） 证书设置
+- 登录
+- build image
+- tag image
+- push image
+
+Image naming in Docker registries
+
+registryDomain/imageName:tag
+基本流程看 aws 官网
+
+```bash
+docker tag my-app:1.0 123456789012.dkr.ecr.us-east-1
+```
+```bash
+docker push 123456789012.dkr.ecr.us-east-1
+```
+
+### 部署
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904101441.png)
+
+### Docker Volume
+
+3 Volume Types
+
+- Host volumes 
+
+你已经决定了在主机文件系统中的哪个位置进行引用。
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904102128.png)
+
+- anonymous volumes
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904102225.png)
+
+- named volumes
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904102350.png)
+
+#### demo
+
+```bash
+docker-compose -f docker-compose.yaml 
+```
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904103057.png)
+
+```bash
+docker-compose -f docker-compose.yaml dowm
+docker-compsae -f docker-compose.yaml up 
+```
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20230904103416.png)
+
+
+### CPU 
+Docker 限制容器 CPU 使用率的方法主要有以下三种：
+1. 相对份额限制（CPU Shares）: 通过设置 --cpus 选项，可以为容器分配一个相对的 CPU 份额。例如，如果您有一个 4 核 CPU 的主机，并为某个容器分配了 2 个 CPU 份额，那么该容器将最多占用主机 CPU 的 50%。设置相对份额限制的命令如下：
+  ```  
+  docker run --cpus 2 -it --name my-container my-image  
+  ```
+2. 绝对使用限制（CPU Usage）: 通过设置 --cpu-timeout 选项，可以限制容器使用的 CPU 时间片。例如，如果您设置 --cpu-timeout 为 30 秒，则容器最多只能占用 30 秒的 CPU 时间。设置绝对使用限制的命令如下：
+  ```  
+  docker run --cpu-timeout 30 -it --name my-container my-image  
+  ```
+3. CPU 核心控制（CPU Cores）: 通过设置 --cpu 选项，可以限制容器使用的 CPU 核心数。例如，如果您有一个 4 核 CPU 的主机，并为某个容器分配了 2 个 CPU 核心，那么该容器将最多占用主机 CPU 的 50%。设置 CPU 核心控制的命令如下：
+  ```  
+  docker run --cpu 2 -it --name my-container my-image  
+  ```
+需要注意的是，以上三种限制方法可以同时使用，以实现更精确的 CPU 资源控制。
+
+### GPU 
+
+Docker 限制容器 GPU 使用率的方法主要有以下两种：
+1. 相对份额限制（GPU Shares）: 通过设置 --gpus 选项，可以为容器分配一个相对的 GPU 份额。例如，如果您有一个具有 8 个 GPU 核心的主机，并为某个容器分配了 2 个 GPU 份额，那么该容器将最多占用主机 GPU 的 25%。设置相对份额限制的命令如下：
+  ```    
+  docker run --gpus 2 -it --name my-container my-image    
+  ```
+2. 绝对使用限制（GPU Usage）: 通过设置 --gpu-timeout 选项，可以限制容器使用的 GPU 时间片。例如，如果您设置 --gpu-timeout 为 30 秒，则容器最多只能占用 30 秒的 GPU 时间。设置绝对使用限制的命令如下：
+  ```    
+  docker run --gpu-timeout 30 -it --name my-container my-image    
+  ```
+需要注意的是，当主机有多个 GPU 时，Docker 会自动为容器分配一个默认的 GPU。如果您希望使用特定的 GPU，可以使用 --gpu 选项指定。例如，要使用主机上的第二个 GPU，可以这样设置：
+```  
+docker run --gpu 2 -it --name my-container my-image  
+```
+此外，如果您不希望限制容器的 GPU 使用，可以不设置 --gpus 和 --gpu-timeout 选项。这样，Docker 会允许容器尽可能地使用 GPU。
+
+### 内存
+
+Docker 限制容器内存使用率的方法主要有以下两种：
+1. 限制内存总量：通过设置 --memory 选项，可以为容器分配一个有限的内存空间。例如，如果您设置 --memory 为 1G，则容器最多只能占用 1GB 的内存。设置内存总量限制的命令如下：
+  ```    
+  docker run --memory 1g -it --name my-container my-image    
+  ```
+2. 限制内存使用率：通过设置 --memory-swap 选项，可以限制容器内存使用率。例如，如果您设置 --memory-swap 为 1g，则容器最多只能占用 1GB 的内存，无论实际内存需求如何。设置内存使用率限制的命令如下：
+  ```    
+  docker run --memory-swap 1g -it --name my-container my-image    
+  ```
+需要注意的是，当您设置 --memory-swap 时，Docker 会自动为容器分配一个与 --memory 值相等的内存空间。如果您希望容器使用更多的内存，可以不设置 --memory-swap 选项。
+此外，如果您希望同时限制容器的内存和 CPU 使用率，可以使用以下命令：
+```    
+docker run --memory 1g --cpu-timeout 30s -it --name my-container my-image    
+```
+在这个例子中，容器将最多占用 1GB 的内存和 30 秒的 CPU 时间片。
