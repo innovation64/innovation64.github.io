@@ -1,7 +1,10 @@
 # 天风の世界
 
+
 欢迎访问我的个人主页！下面向你介绍一下我自己吧\~
 
+>“We believe that innovative authors are more likely to come from people who are independent and won’t work in a software ‘factory’ or ‘bureaucracy.”
+*― Steven Levy, Hackers: Heroes of the Computer Revolution*
 
 
 <!-- .slide -->
