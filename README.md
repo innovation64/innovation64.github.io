@@ -70,8 +70,8 @@ Information system and information management, Beijing University of Chinese Med
 
 <!--.slide vertical=true -->
 
-- AI Time (2021-2023)
-- Huggingface (2022-2023)
+- AITIME(2021-~)
+- Hugging Face (2022-~)
 
 <!-- .slide -->
 
