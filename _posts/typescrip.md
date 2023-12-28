@@ -1,3 +1,3 @@
 ---
-tag: TS
+tags: TS
 ---
