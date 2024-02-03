@@ -1,0 +1,94 @@
+---
+tags: RAG
+---
+# 模块化RAG
+RAG Pipeline 变动 
+- 在检索增强数据源上
+    - 引入半结构化数据（PDF,HTML,LaTex）
+    - 结构化数据（KG，三元组，结构化查询语句）
+    - 减少对外部知识源的依赖
+- 在检索技术上
+    - FT 与 RAG结合
+    - 单独检索器或生成器微调
+    - 增加Adapter对齐query和chunk之间的GAP
+    - 增加下游任务检索器适配器
+    - 通过RL和更强LLM监督增强检索
+- 在检索增强流程上
+    - 迭代多轮检索增强（检索内容指导生成，生成内容进一步指导检索）
+    - LLM自主判断是否需要检索
+
+## Modular RAG
+- Molule Type(核心流程（功能模块）——>具体算子)
+- Module
+- Operator
+
+Pipeline 变成模块与算子之间的排列组合
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20240203234835.png)
+
+## RAG Flow
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20240203234930.png)
+
+### 微调模式
+1. 检索器微调
+- 直接微调。
+- 添加可训练的Adapter 模块
+- LSR(LM-supervised Retrieval）
+- LLM Reward RL
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/abd609a25e76482c3075216a5918d03e.png)
+
+2. 生成器微调
+- 直接微调。
+- GPT-4蒸馏。
+- 基于反馈的强化学习(RLHF)
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/e41f40ea834ab67e37366b23012aa80c.png)
+
+3. 协同微调
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20240203235244.png)
+
+### 推理阶段模式
+1. Sequential
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20240203235419.png)
+
+2. Conditional
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/a1a3785556643dee493d173d78cd4cb1.png)
+
+3. Branching
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/20240203235611.png)
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/dbd78d6907925d84e5d0f341940c897a.png)
+
+4. Loop
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/c2ea909e1f807b284c8325126534178b.png)
+
+5. Iterative Retrieval
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/8c7d803f10c297b21cec3485092b7c09.png)
+
+6. Recursive Retrieval
+
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/336de62b54b23510bae965ab26631407.png)
+
+7. Adaptive (Active) Retrieval
+- Prompt-base
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/c30c470d0e7c605331dd841b318d0403.png)
+- Tuning-base.
+    - 给输入提示和前面的结果判断，预测特殊token 
+    - 有帮助，调用检索模型
+    - ⽣成⼀个critique token来评估检索段的相关 性, 下⼀个响应⽚段,和⼀个批判令牌来评估响应⽚段中的信息是否得到了检索段的⽀持
+    - ⼀个新的批判令牌评估响应的整体效⽤。模型会并⾏处理这些内容，并选择最佳结果作为最终的输出。
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/60cc7c579b5911e119a83d4d1cbaf71b.png)
+
+
+## 整理同济提出的案例
+- OPENAI猜的
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/08eea17c5c12893a3daf9f69485b2780.png)
+- 百川智能
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/278579ce4f08fa2862b029e983556ae1.png)
+- Databricks
+![](https://raw.githubusercontent.com/innovation64/Picimg/main/84ff736bee48556a806509e67ec38c7c.png)
+
+
