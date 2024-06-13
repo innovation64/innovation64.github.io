@@ -15,6 +15,7 @@
 
 - Site: 
   - **<https://davenger.top>**
+  - **<https://innovation64.github.io/AcademicX>**
 - [Resume](https://innovation64.github.io/ly.pdf)
 
 <!-- .slide vertical=true -->
@@ -98,8 +99,8 @@ Information system and information management, Beijing University of Chinese Med
 
 ## Blogs
 
-- [GNN系列](https://innovation64.github.io/_posts/2021-12-30-GNN-1.1/)
-- [linux装逼](https://innovation64.github.io/_posts/2021-08-21-linux%E8%A3%85%E9%80%BC%E7%A5%9E%E5%99%A8/)
+- [GNN 系列](https://innovation64.github.io/_posts/2021-12-30-GNN-1.1/)
+- [linux 装逼](https://innovation64.github.io/_posts/2021-08-21-linux%E8%A3%85%E9%80%BC%E7%A5%9E%E5%99%A8/)
 <!-- .slide -->
 
 ## Skills
